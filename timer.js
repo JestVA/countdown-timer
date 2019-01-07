@@ -38,7 +38,7 @@ const displayEndTime = timestamp => {
 }
 
 function startTimer() {
-    const seconds = parseInt(this.dataset.time); // clear this out 
+    const seconds = parseInt(this.dataset.time); 
     timer(seconds)
 }
 
